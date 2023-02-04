@@ -1,9 +1,13 @@
 {
-  "name": "express-portfolio-v3",
-  "version": "0.0.0",
+  "name": "app-portfolio",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
     "start": "node ./server.js"
+  },
+  "engines": {
+    "node": "^18.13.0",
+    "npm": "^8.19.3"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.2.1",
@@ -18,5 +22,18 @@
     "morgan": "~1.9.1",
     "perfect-scrollbar": "^1.5.5",
     "popper.js": "^1.16.1"
-  }
+  },
+  "description": "website for assignment one",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BasstianJacome/Website_COMP229_portfolio.git"
+  },
+  "author": "vinicio jacome",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BasstianJacome/Website_COMP229_portfolio/issues"
+  },
+  "homepage": "https://github.com/BasstianJacome/Website_COMP229_portfolio#readme"
 }
